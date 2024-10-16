@@ -103,11 +103,17 @@
 
 <style>
 	main {
+		margin: 0;
+		padding: 0;
 		background-image: url('../images/home/background.jpeg');
 		background-size: cover;
 		background-position: center;
 		width: 100vw;
 		height: 100vh;
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
 	}
 
 	#follow {
