@@ -1,15 +1,15 @@
 import './Home.sass';
-import StarsLeft from './assets/stars-left.svg'
-import StarsRight from './assets/stars-right.svg'
-import Arrows from './assets/arrows.svg'
+import StarsLeft from './assets/stars-left.tsx'
+import StarsRight from './assets/stars-right.tsx'
+import Arrows from './assets/arrows.tsx'
 
 export const Home = () => {
     return (
         <section className='home'>
             <div className='header'>
-                <img src={StarsLeft} />
+                <StarsLeft />
                 <h1>NEW SINGLE</h1>
-                <img src={StarsRight} />
+                <StarsRight />
             </div>
 
             <div className='content'>
@@ -18,10 +18,10 @@ export const Home = () => {
                         <h2>TALK TO ME</h2>
                         <div className="links">
                             <a href="https://ffm.to/b7jdxdd" target="_blank" rel="noopener noreferrer">
-                                Listen<img src={Arrows} />
+                                Listen<Arrows />
                             </a>
                             <a href="https://www.youtube.com/watch?v=Q9RJJ0GBKnI" target="_blank" rel="noopener noreferrer">
-                                Official Music Video<img src={Arrows} />
+                                Official Music Video<Arrows />
                             </a>
                         </div>
                     </div>
